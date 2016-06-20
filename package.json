@@ -26,7 +26,6 @@
     "code-style",
     "validate-commit-msg"
   ],
-  "dependencies": {},
   "devDependencies": {
     "chai": "3.5.0",
     "chai-generator": "^2.0.3",
@@ -42,6 +41,9 @@
     "sinon": "1.17.4",
     "sinon-chai": "2.8.0",
     "validate-commit-message": "3.0.1"
+  },
+  "engines": {
+    "node": "6.2.2"
   },
   "homepage": "https://github.com/emartech/koa-router-param"
 }
