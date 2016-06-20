@@ -45,6 +45,5 @@
   "engines": {
     "node": "6.2.2"
   },
-  "homepage": "https://github.com/emartech/koa-router-param",
-  "version": "0.0.1"
+  "homepage": "https://github.com/emartech/koa-router-param"
 }
