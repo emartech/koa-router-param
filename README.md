@@ -13,15 +13,15 @@ npm install koa-router-param
 ## API Reference
 
 * [koa-router-params](#module_koa-router-params)
-    * _static_ [.Integer(paramName)](#exp_module_koa-router-params--Middleware--Integer)
+    * _static_ [.asInteger(paramName)](#exp_module_koa-router-params--Middleware--asInteger)
 
 <a name="exp_module_koa-router-params--Middleware"></a>
 ## Middleware
 
-<a name="exp_module_koa-router-params--Middleware--Integer"></a>
-### RouterParam.Integer(paramName) ⇒ <code>generator</code>
+<a name="exp_module_koa-router-params--Middleware--asInteger"></a>
+### RouterParam.asInteger(paramName) ⇒ <code>generator</code>
 
-Casts the given parameter to `Integer`.
+Casts the given parameter to `integer`.
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -36,7 +36,7 @@ var Router = require('koa-router');
 var RouterParam = require('koa-router-param');
 
 router
-    .param('userId', RouterParam.Integer('userId'))
+    .param('userId', RouterParam.asInteger('userId'))
     .get('/', function *(next) {...});
     .get('/users/:userId', function *(next) {...});
     .get('/users/:userId/comments', function *(next) {...});

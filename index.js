@@ -1,5 +1,5 @@
 'use strict';
 
 module.exports = {
-  Integer: require('./middleware/integer')
+  asInteger: require('./middleware/integer')
 };
