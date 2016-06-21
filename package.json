@@ -42,6 +42,9 @@
     "sinon-chai": "2.8.0",
     "validate-commit-message": "3.0.1"
   },
+  "peerDependencies": {
+    "koa-router": "5.4.0"
+  },
   "engines": {
     "node": "6.2.2"
   },
