@@ -1,6 +1,6 @@
 {
   "name": "koa-router-param",
-  "description": "Middleware for casting Koa Router Params",
+  "description": "Middleware for casting koa-router params",
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test mocha --require co-mocha $(find . -name \"*.spec.js\" -not -path \"./node_modules/*\")",

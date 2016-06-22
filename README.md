@@ -60,7 +60,7 @@ Basic usage:
 
 ## Contributing
 
-Please submit all issues and pull requests to the [emartech/koa-router-param](http://github.com/emartech/koa-router-param) repository!
+Please submit all issues and pull requests to the [emartech/koa-router-param](https://github.com/emartech/koa-router-param) repository!
 
 ## Tests
 
