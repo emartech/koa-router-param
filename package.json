@@ -28,8 +28,8 @@
   ],
   "devDependencies": {
     "chai": "3.5.0",
-    "chai-generator": "^2.0.3",
-    "chai-is-generator": "^1.1.0",
+    "chai-generator": "2.0.3",
+    "chai-is-generator": "1.2.0",
     "co-mocha": "1.1.2",
     "eslint": "2.11.1",
     "eslint-config-emarsys": "4.0.0",
