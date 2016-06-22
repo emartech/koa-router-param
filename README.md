@@ -23,6 +23,8 @@ Creates a middleware for _koa-router_ route.
 
 #### Parameters
 
+| Param | Type | Description |
+| --- | --- | --- |
 | params | <code>Object</code> | An object representing the processable URL params |
 | ↳ key | <code>String</code> | Name of the param in the URL |
 | ↳ value | <code>Generator</code> | A transformer for the param's value |
