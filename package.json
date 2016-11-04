@@ -45,9 +45,6 @@
   "peerDependencies": {
     "koa-router": "5.4.0"
   },
-  "engines": {
-    "node": "6.2.2"
-  },
   "homepage": "https://github.com/emartech/koa-router-param",
   "dependencies": {
     "lodash.foreach": "4.3.0"
